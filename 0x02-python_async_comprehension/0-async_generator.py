@@ -1,8 +1,6 @@
 #!/usr/bin/env python3
 """Module that provides an async generator
 for yielding random floats."""
-
-
 import asyncio
 import random
 from typing import AsyncGenerator
