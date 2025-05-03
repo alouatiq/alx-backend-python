@@ -3,7 +3,8 @@
 from typing import List
 from importlib import import_module
 
-# Dynamically import the module (since its name starts with a digit and has a hyphen)
+# Dynamically import the module (since its
+#name starts with a digit and has a hyphen)
 async_generator = import_module("0-async_generator").async_generator
 
 
